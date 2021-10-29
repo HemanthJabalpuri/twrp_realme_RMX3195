@@ -5,7 +5,6 @@
 /dtbo            emmc      /dev/block/by-name/dtbo        flags=backup
 /vbmeta          emmc      /dev/block/by-name/vbmeta      flags=backup;flashimg
 /persist         ext4      /dev/block/by-name/persist     flags=backup
-/metadata        ext4      /dev/block/by-name/md_udc
 /tee1            emmc      /dev/block/by-name/tee1        flags=backup
 /tee2            emmc      /dev/block/by-name/tee2        flags=backup
 /persistent      emmc      /dev/block/by-name/frp         flags=backup
